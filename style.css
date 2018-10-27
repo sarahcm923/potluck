@@ -1,0 +1,19 @@
+.jumbotron {
+    color: darkred;
+    background: url('Screen Shot 2018-10-27 at 11.35.08 AM.png');
+    background-size: contain;
+}
+
+.card-title{
+    color:darkred;
+}
+
+.card-subtitle{
+    color:darkorange;
+}
+
+h1{
+    background-color: antiquewhite;
+    opacity: 0.8;
+}
+
