@@ -19,10 +19,12 @@ $(function() {
             //need to do this here because call is async so we need to wait for data before drawing the table.
             var table = d3.select("#dataTable");
             for (key in data.dataObj){
-                var tr = table.append("tr");
-                tr.append("td").text(key);
-                tr.append("td").text(data.dataObj[key].category);
-                tr.append("td").text(data.dataObj[key].item);
+                if(key!=""){
+                  var tr = table.append("tr");
+                  tr.append("td").text(key);
+                  tr.append("td").text(data.dataObj[key].category);
+                  tr.append("td").text(data.dataObj[key].item);
+                }
             }
 
         },
