@@ -16,4 +16,7 @@ h1{
     background-color: antiquewhite;
     opacity: 0.8;
 }
-
+table, th, td{
+  border: 1px solid black;
+  padding: 15px;
+}
